@@ -79,7 +79,7 @@ button:hover {
   font-family: "Raleway", sans-serif;
   margin-bottom: 15px;
 }
-.about.item p {
+.about-item p {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
@@ -265,5 +265,44 @@ footer {
   #about {
     padding: 25px;
     grid-template-columns: 1fr;
+  }
+  .about-item {
+    width: 325px;
+  }
+  .about-item p {
+    font-size: 14px;
+  }
+  #how-fylo-works {
+    flex-direction: column;
+    padding: 25px;
+  }
+  #fylo-text {
+    position: relative;
+    top: 100px;
+    left: 0px;
+    margin-bottom: 150px;
+  }
+
+  #reviews {
+    flex-direction: column;
+  }
+  .reviews-item {
+    width: 325px;
+    height: 230px;
+    margin-bottom: 30px;
+  }
+  #early-access {
+    width: 325px;
+    height: 350px;
+    padding: 0;
+    left: 25px;
+  }
+  input,
+  #early-access button {
+    width: 280px;
+  }
+  footer {
+    height: 1000px;
+    flex-direction: column;
   }
 }

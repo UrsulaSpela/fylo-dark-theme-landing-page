@@ -116,6 +116,8 @@ button:hover {
   height: 575px;
   align-items: center;
   justify-content: space-evenly;
+  background: url(images/bg-quotes.png) no-repeat;
+  background-position: 5% 30%;
 }
 .reviews-item {
   width: 360px;
